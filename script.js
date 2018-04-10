@@ -31,3 +31,15 @@ caches.open('Cache de Prueba')
     
 })
 .catch( e => console.log( "Error al abrir Caché", e ) )*/
+
+
+//-----------------------------------
+// Uso del PUSH & NOTIFICATIONS API
+//-----------------------------------
+
+// Si el navegador soporta las Notificaciones y no fueron bloqueadas por el usuario, solicito permiso
+if ( window.Notification && Notification.permission !== 'denied' ) {
+    Notification.requestPermission( status => {
+        console.info("status ", status);
+    })
+}
