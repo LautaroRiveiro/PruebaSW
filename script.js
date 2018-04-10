@@ -78,3 +78,22 @@ document.addEventListener('DOMContentLoaded', e => {
     window.addEventListener('offline', cambioEstado);
     window.addEventListener('online',  cambioEstado);
 });
+
+//-----------------------------------
+// Registro del BACKGROUND SYNC API
+//-----------------------------------
+
+// Para poder registrar la BGSync el navegador debe soportar SW y SyncManager
+if ( 'serviceWorker' in navigator && 'SyncManager' in window ) {
+
+    // El serviceWorker.ready es una promesa que se devuelve el registro del SW cuando está listo.
+    // En ese momento y desde ese registro, puedo registrarle la BGSync, pasándole un identificador.
+    navigator.serviceWorker.ready
+    .then( registroSW => {
+
+        return registroSW.sync.register('etiquetaClave')
+        .then( ()=>console.info("Sincronización registrada") )
+
+    })
+    .catch( error => console.info("Error al activar Sync", error) )
+};

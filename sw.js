@@ -126,6 +126,12 @@ self.addEventListener('notificationclick', notificationEvent => {
 });
 
 
+//------------------------------------------
+// Eventos del Background Sync
+//------------------------------------------
+self.addEventListener('sync', e => {
+    console.info("Evento Sync", e);
+})
 
 /* waitUntil() es un método que extiende la vida de los eventos install y activate retrasando su resolución
  * hasta que se resuelva la promesa pasada como parámetro. Este método pertenece a la interface

@@ -1,0 +1,9 @@
+{
+    "name":         "Aplicación DEMO",
+    "short_name":   "DemoApp",
+    "start_url":    "./?utm=homescreen",
+    "display":      "standalone",
+    "icons": [
+        { "src": "./icono.png", "sizes": "144x144 192x192", "type": "image/png" }
+    ]
+}
