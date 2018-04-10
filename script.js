@@ -43,3 +43,38 @@ if ( window.Notification && Notification.permission !== 'denied' ) {
         console.info("status ", status);
     })
 }
+
+//-----------------------------------
+// Uso del Estado de Conexión
+//-----------------------------------
+function cambioEstado(e){
+    
+    const header  = document.querySelector('.header');
+    const metaTag = document.querySelector('meta[name=theme-color]');
+    console.info("Cambio Estado", e, header);
+
+    if ( navigator.onLine ) {
+        console.info("Se ha conectado");
+        header.classList.remove('offline');
+        metaTag.setAttribute('content', '#F7DF1E');
+    }
+    else{
+        console.info("Se ha desconectado");
+        header.classList.add('offline');
+        metaTag.setAttribute('content', '#666');
+    }
+}
+
+// Evento equivalente al document.ready en JQuery
+document.addEventListener('DOMContentLoaded', e => {
+    
+    console.info("DOMContentLoaded",e)
+
+    if ( !navigator.onLine ) {
+        console.info("SIN CONEXION this:", this);
+        cambioEstado( this );
+    }
+
+    window.addEventListener('offline', cambioEstado);
+    window.addEventListener('online',  cambioEstado);
+});
