@@ -1,0 +1,82 @@
+{
+"resultados":[
+{
+    "cond":"CIF",
+    "remito":"0011R00000003",
+    "razonSocial":"CORTI ANDREA Y CORTI DILLMAN Mº CEC",
+    "producto":"CEMENTO CPF40 IRAM 50000 GR",
+    "cantidad":"300,00",
+    "destino":"CORTI ANDREA Y CORTI DILLMAN Mº CEC"
+},
+{
+    "cond":"CIF",
+    "remito":"0011R00000004",
+    "razonSocial":"CORTI ANDREA Y CORTI DILLMAN Mº CEC",
+    "producto":"CEMENTO CPF40 IRAM 50000 GR",
+    "cantidad":"100,00",
+    "destino":"Destinatario 1 para cliente 1"
+},
+{
+    "cond":"FOB",
+    "remito":"0002R00000138",
+    "razonSocial":"CORTI ANDREA Y CORTI DILLMAN Mº CEC",
+    "producto":"CEMENTO CPF40 IRAM 50000 B50 KG",
+    "cantidad":"8,00",
+    "destino":"Destinatario 1 para cliente 1"
+},
+{
+    "cond":"CIF",
+    "remito":"0002R00000124",
+    "razonSocial":"Construcciones Majestic S.A.",
+    "producto":"CEMENTO CPF40 IRAM 50000 B50 KG",
+    "cantidad":"0,05",
+    "destino":"Construcciones Majestic S.A."
+},
+{
+    "cond":"FOB",
+    "remito":"0002R00000130",
+    "razonSocial":"CORTI ANDREA Y CORTI DILLMAN Mº CEC",
+    "producto":"CAL HIDRAT EXTRA B25 KG",
+    "cantidad":"6,00",
+    "destino":"Destinatario 1 para cliente 1"
+},
+{
+    "cond":"CIF",
+    "remito":"0002R00000328",
+    "razonSocial":"CORTI ANDREA Y CORTI DILLMAN Mº CEC",
+    "producto":"CEMENTO CPN40 (ARS) IRAM 50001 GR",
+    "cantidad":"30,00",
+    "destino":"CORTI ANDREA Y CORTI DILLMAN Mº CEC"
+},
+{
+    "cond":"CIF",
+    "remito":"0076R00000001",
+    "razonSocial":"Prueba Despacho 1",
+    "producto":"CEMENTO ALBAÑILERIA IRAM 1685 B40 KG",
+    "cantidad":"2,00",
+    "destino":"Prueba Despacho 1"
+},
+{
+    "cond":"FOB",
+    "remito":"0002R00000279",
+    "razonSocial":"CORTI ANDREA Y CORTI DILLMAN Mº CEC",
+    "producto":"CEMENTO CPF40 IRAM 50000 B50 KG",
+    "cantidad":"4,00",
+    "destino":"Destinatario 1 para cliente 1"
+},
+{
+    "cond":"FOB",
+    "remito":"0002R00000279",
+    "razonSocial":"CORTI ANDREA Y CORTI DILLMAN Mº CEC",
+    "producto":"CAL HIDRAT EXTRA B25 KG",
+    "cantidad":"6,00",
+    "destino":"Destinatario 1 para cliente 1"
+},
+{
+    "cond":"FOB",
+    "remito":"0002R00000278",
+    "razonSocial":"CORTI ANDREA Y CORTI DILLMAN Mº CEC",
+    "producto":"CEMENTO CPF40 IRAM 50000 B50 KG",
+    "cantidad":"2,00",
+    "destino":"Destinatario 1 para cliente 1"
+}]}
